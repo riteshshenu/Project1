@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project first Slider</title>
+
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="main">
+        <div class="main-container">
+            <!-- Control Panel -->
+            <div class="main-slider-control container">
+                <div class="col">
+                    <input type="text" name="" id="text" class="input">
+                    <button class="btn" id="btn-up">UP</button>
+                    <button class="btn" id="btn-low">Low</button>
+                    <div class="col-last-text"><p>Company Name</p></div>
+                </div>
+
+                <div class="col">
+                    <input type="range" value="30" min="0" max="150" id="font-range">
+                    <div class="range-val">
+                        
+                    </div>
+                    <div class="col-last-text"><p>Font Size</p></div>
+                </div>
+
+                <div class="col">
+                    <input type="range" value="10" min="0" max="50" id="space-range">
+                    <div class="range-letter"></div>
+                    <div class="col-last-text"><p>Letter Spacing</p></div>
+                </div>
+            </div>
+            
+
+            <!-- slider section -->
+            <div class="slide-img">
+                <div>
+                    <h3 id="input-text">Company Name</h3>
+                </div>
+                <div class="default-text">
+                    <h3>Company Name</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.js"
+    integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
